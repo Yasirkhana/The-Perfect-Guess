@@ -10,8 +10,8 @@ while userscore <= 10:
     user = int(input("Guess the number : "))
 
     if(user == rand):
-        print(f'''YOU guess it right BRAWO
-                YOUR SCORE :  {userscore}  ''')
+        print(f'''HURAYYY...YOU guess it right BRAWO
+                 YOUR SCORE :  {userscore}  ''')
         break
 
     elif (user < rand):
@@ -25,7 +25,7 @@ while userscore <= 10:
         
             
 else:
-    print("YOU LOST !")
+    print("HAWWW YOU LOST !")
     
 
 
